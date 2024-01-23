@@ -1,0 +1,138 @@
+* {
+    margin: 0;
+    padding: 0;
+    border: 0;
+}
+
+#grass {
+    background-color: #01B248;
+}
+#fire {
+    background-color: #FF4218;
+}
+#water {
+    background-color: #169CD9;
+}
+#electric {
+    background-color: #FFFF00;
+}
+#ice {
+    background-color: #B4D8F0;
+}
+#fighting {
+    background-color: #D65142;
+}
+#flying {
+    background-color: #00B1F4;
+}
+#bug {
+    background-color: #AABA23;
+}
+#ghost {
+    background-color: #001A61;
+}
+#poison {
+    background-color: #EE00D0;
+}
+#psychic {
+    background-color: #FF2F9D;
+}
+#steel {
+    background-color: #808080;
+}
+#dark {
+    background-color: #983900;
+}
+#dragon {
+    background-color: #7E2EA1;
+}
+#fairy {
+    background-color: #FE9DFE;
+}
+#normal {
+    background-color: #DADADA;
+}
+#ground {
+    background-color: #E9BB4C;
+}
+#rock {
+    background-color: #C2AC61;
+}
+
+
+
+body {
+    background-color: #2B292C;
+    max-width: 412px;
+    align-items: center;
+    margin: 0 auto;
+}
+#cabecalho {
+    background-color: #CE3945;
+    height: 70px;
+}
+#titulo_cabecalho {
+    color: #ffffff;
+    font-size: 20px;
+    padding-left: 25px;
+    display: flex;
+    position: relative;
+    top: 40px;
+}
+.coluna {
+    display: flex;
+    width: 100%;
+    flex-wrap: wrap;
+}
+.cards {
+    position: relative;
+    margin: 8px;
+    background-color: green;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 50%;
+    height: 120px;
+    border-radius: 10px;
+    flex: 0 0 45%;
+    left: 4px;
+    text-align: center;
+}
+#nomepokemon{
+    position: relative;
+    font-size: 15px;
+    color: #ffffff;
+    margin-top: auto;
+    margin-bottom: 20px;
+    text-transform: capitalize;
+    
+}
+.imgpokemon {
+    display: block;
+    padding: 0;
+    width: 50%;
+    height: 200%;
+    align-items: center;
+    margin: 0 auto;
+    margin-top: 2px;
+}
+#butaoPaginacao {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    margin: 0;
+    width: 50%;
+    padding: 10px;
+    margin: 10px auto;
+    padding: 5px 10px;
+    cursor: pointer;
+    background-color: #007BFF;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    display: block;
+}
+#divDoButao {
+    display: flex;
+}
